@@ -336,7 +336,8 @@ img{
 .enviar {
     width:20%;
     border: none;
-    margin-top: 1rem; 
+    margin-top: 1rem;
+    cursor: pointer;
 }
 
 .container-input textarea {
@@ -382,6 +383,7 @@ footer span {
  } 
   .button:hover {
     background-color: red;
+
   }
 .card-grid {
     display: grid;
@@ -411,6 +413,7 @@ footer span {
   
 .enviar:hover {
     background-color: rgb(42, 126, 99);
+
 
   }
 .container{
@@ -478,4 +481,8 @@ footer span {
     text-decoration: none;
     transition: color 0.3s ease;
     text-align: center;
+}
+.social-links a:hover{
+    color:var(--primary);
+    cursor: pointer;
 }
