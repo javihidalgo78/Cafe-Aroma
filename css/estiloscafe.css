@@ -16,6 +16,7 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /************************************************************************/
@@ -116,7 +117,7 @@ p {
     position: relative;
     background-image: url(../Images/cafeteria.jpg);
 }
-/***********************************************************************/
+/********************************************************/
 img{
     width: 100%;
     border-radius: 4%;
@@ -146,7 +147,6 @@ img{
     margin-right: 0.5rem;
 }
 
-.section-banner p,
 .section-banner h2 {
     color: var(--white);
 }
@@ -183,12 +183,11 @@ img{
     }
 }
 
-/************************************************************************/
+/**********************************************************/
 
 
-/* contenedor principal
-    contiene todo el main
-*/
+/*contenedor principal
+    contiene todo el main*/
 .container {
     background-color: var(--white);
     padding: 1rem;
@@ -222,8 +221,7 @@ img{
 }
 
 /* esta clase envuelve tres secciones dentro
-    establece que esas secciones se alineen en una columna
-*/
+establece que esas secciones se alineen en una columna*/
 .contenedor-servicios {
     display: flex;
     flex-direction: column;   
